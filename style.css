@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300&display=swap');
+.navbar{
+    color:#D8D8D8;
+    box-shadow:0px 5px 10px rgba(0,0,0,0.7) 
+}
+.navbar .navbar-collapse .navbar-nav .nav-link{
+    padding: 0 20px;
+    color:black;
+    transition: 0.3s ease;
+}
+.navbar-light .navbar-collapse .navbar-nav .nav-link:hover,
+.navbar i:hover,
+.navbar i.active
+.navbar-light .navbar-nav .nav-link .active{
+  color: coral;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+    
+.navbar i{
+    font-size: 1.2rem;
+    padding:0.7px;
+    cursor: pointer;
+    font-weight: 500;
+    transform: 0.3 ease;
+}
+#home .sec1 .abordable{
+    color: coral;
+
+}
+#home{
+    background-image: url('img1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:#D8D8D8;
+}
+#pub-2  h5{
+    text-transform: uppercase;
+    
+   }
+#pub-2{
+    background-image: url('fond.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:#D8D8D8;
+}
+#home .sec1 h5{
+ text-transform: uppercase;
+ 
+}
+button{
+    border: none;
+    box-shadow: none;
+    background-color: black;
+    color:white;
+    padding: 14px 20px;
+    transform: 0.3 ease;
+    text-transform: uppercase;
+}
+button:hover{
+    background-color: rgb(75, 74, 74);
+}
+.sec2 .row .my-card{
+    position: relative;
+    
+
+}
+/* .sec2 .row .my-card img{
+    object-fit: cover;
+} */
+.sec2 .row .my-card .details{
+    position:absolute;
+    top: 0;
+    padding: 7px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+    font-weight: 500;
+
+}
+.sec2 .row .my-card:nth-child(1) .details{
+    position:absolute;
+    top: 0;
+    padding: 7px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+    color: white;
+    font-weight: 500;
+
+}
+.sec2 .row .my-card:nth-child(2) .details{
+    position:absolute;
+    top: 0;
+    padding: 7px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: white;
+    font-weight: 500;
+
+}
+.sec2 .row .my-card:nth-child(3) .details{
+    position:absolute;
+    top: 0;
+    padding: 7px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: right;
+    align-items: flex-end;
+    color: white;
+    font-weight: 500;
+
+}
+.sec2 .row .my-card:hover .details{
+    background-color: rgba(223, 134, 19,0.7);
+}
+.my-title hr{width: 40px;
+color: coral;
+height: 3px;}
+.product:hover img{
+    opacity: 0.7;
+}
+.product button{
+    transform: translateY(20);
+    transition: 0.5 all;
+    opacity: 0;
+    background-color: coral;
+    text-transform: uppercase;
+
+}
+.product:hover button{
+    transform: translateY(0);
+    opacity: 1;
+    
+}
+.footer{
+    color: white;
+    background-color: rgb(15, 14, 14);
+}
